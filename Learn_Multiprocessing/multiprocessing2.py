@@ -1,4 +1,4 @@
-import multiprocessing as mp
+import Learn_Multiprocessing as mp
 
 def job(x):
     return x*x

@@ -1,6 +1,6 @@
 import time
 
-import multiprocessing as mp
+import Learn_Multiprocessing as mp
 
 
 def job(v,num,l):

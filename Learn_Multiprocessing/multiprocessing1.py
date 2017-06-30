@@ -1,6 +1,6 @@
 import queue
 
-import multiprocessing as mp
+import Learn_Multiprocessing as mp
 import threading as td
 import time
 

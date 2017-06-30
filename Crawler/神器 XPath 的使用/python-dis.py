@@ -1,7 +1,7 @@
 #极客学院
 #-*-coding:utf8-*-
 
-from multiprocessing.dummy import Pool as ThreadPool
+from Learn_Multiprocessing.dummy import Pool as ThreadPool
 import requests
 import time
 
