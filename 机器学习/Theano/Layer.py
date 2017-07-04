@@ -62,8 +62,26 @@ train = theano.function(
 #prediction
 predict =theano.function(inputs=[x],outputs=l2.outputs)
 
+#plot the fake data
+fig = plt.figure()
+ax = fig.add_subplot(1,1,1)
+ax.scatter(x_data,y_data)
+plt.ion()
+plt.show()
+
+
+
+
 for i in range(1000):
     #training
     err = train(x_data,y_data)
     if i%50 == 0:
-        print(err)
+        #to visualize the result and improvement
+        try:
+            ax.lines.remove(lines[0])
+        except Exception:
+            pass
+        predicted_value = predict(x_data)
+        #plot the prediction
+        lines = ax.plot(x_data,predicted_value,'r-',lw=5)
+        plt.pause(1)
