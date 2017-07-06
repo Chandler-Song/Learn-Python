@@ -17,6 +17,32 @@ from keras.models import Sequential
 from keras.layers import Dense
 from keras.models import load_model
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # create some data
 X = np.linspace(-1, 1, 200)
 np.random.shuffle(X)    # randomize the data
