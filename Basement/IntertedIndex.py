@@ -1,5 +1,9 @@
+#【网友实现】:http://blog.csdn.net/chen19920219/article/details/71091314
 import collections
 map,nums= {},collections.defaultdict(int)
+
+
+
 
 def createIndex(filePath):
     with open(filePath) as reader:
