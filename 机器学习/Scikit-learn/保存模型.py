@@ -16,9 +16,8 @@ import pickle
 #load
 # with open ("clf.pickle",'rb') as f:
 #     clf2 = pickle.load(f)
-#     print(clf2.predict(X[0]))
-
-
+#     print(clf2.predict(X[0]))\
+\
 #method 2:joblib
 from sklearn.externals import joblib
 #
